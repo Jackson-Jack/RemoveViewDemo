@@ -13,6 +13,8 @@
 		05E8A7862105F142002A24AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E8A7852105F142002A24AA /* Assets.xcassets */; };
 		05E8A7892105F142002A24AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E8A7872105F142002A24AA /* LaunchScreen.storyboard */; };
 		05E8A78C2105F142002A24AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E8A78B2105F142002A24AA /* main.m */; };
+		05E8A7942105F16D002A24AA /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E8A7932105F16D002A24AA /* FirstView.m */; };
+		05E8A7972105F179002A24AA /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E8A7962105F179002A24AA /* SecondView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		05E8A7882105F142002A24AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05E8A78A2105F142002A24AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05E8A78B2105F142002A24AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05E8A7922105F16D002A24AA /* FirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		05E8A7932105F16D002A24AA /* FirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		05E8A7952105F179002A24AA /* SecondView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		05E8A7962105F179002A24AA /* SecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				05E8A77D2105F140002A24AA /* AppDelegate.m */,
 				05E8A77F2105F140002A24AA /* ViewController.h */,
 				05E8A7802105F141002A24AA /* ViewController.m */,
+				05E8A7922105F16D002A24AA /* FirstView.h */,
+				05E8A7932105F16D002A24AA /* FirstView.m */,
+				05E8A7952105F179002A24AA /* SecondView.h */,
+				05E8A7962105F179002A24AA /* SecondView.m */,
 				05E8A7822105F141002A24AA /* Main.storyboard */,
 				05E8A7852105F142002A24AA /* Assets.xcassets */,
 				05E8A7872105F142002A24AA /* LaunchScreen.storyboard */,
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05E8A7812105F141002A24AA /* ViewController.m in Sources */,
+				05E8A7942105F16D002A24AA /* FirstView.m in Sources */,
 				05E8A78C2105F142002A24AA /* main.m in Sources */,
+				05E8A7972105F179002A24AA /* SecondView.m in Sources */,
 				05E8A77E2105F140002A24AA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
